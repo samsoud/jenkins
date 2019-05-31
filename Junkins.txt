@@ -1,0 +1,91 @@
+
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-jenkins-github-docker-cicd
+https://docs.microsoft.com/en-us/azure/jenkins/
+
+jenkins-vnet.centralus.cloudapp.azure.com
+
+
+Start-AzureRmVM -ResourceGroupName "jenkins" -Name "jenkins"
+
+ssh -L 127.0.0.1:8080:localhost:8080 samsoud@samjenkins.centralus.cloudapp.azure.com
+
+
+Start-AzureRmVM -ResourceGroupName "jenkens" -Name "samjenkens.centralus.cloudapp.azure.com"
+putty.exe -ssh -L 8080:localhost:8080 samsoud@168.61.145.248
+ 
+ 
+ssh -L 127.0.0.1:8080:localhost:8080 samsoud@samjenkins.centralus.cloudapp.azure.com
+
+
+Azure for jenkins  quick start
+
+https://github.com/jenkinsci/azure-ad-plugin
+How to Deploy Jenkins Agent and Connect it to Jenkins Master in Microsoft Azure.
+
+https://medium.com/pharos-production/how-to-deploy-jenkins-agent-and-connect-it-to-jenkins-master-in-microsoft-azure-ffeb085957c0
+
+Setup Jenkins Slave on Microsoft Azure for CICD with DTR
+https://manesh.me/2015/11/20/setup-jenkins-slave-on-microsoft-azure-for-cicd-with-dtr/
+
+
+
+Connect tojenkins machine:
+https://www.azuredevopslabs.com/labs/vstsextend/Jenkins/#setting-up-the-jenkins-vm
+
+
+
+https://www.youtube.com/watch?v=AN_uc9YqEC4
+########################################################
+
+https://github.com/Azure/azure-quickstart-templates/tree/master/jenkins-on-ubuntu
+https://docs.microsoft.com/en-ca/azure/jenkins/install-jenkins-solution-template
+https://azuremarketplace.microsoft.com/en-us/marketplace/apps/azure-oss.jenkins?tab=overview
+
+https://tutorials.visualstudio.com/jenkins-azure/new/solution-template
+https://docs.microsoft.com/en-us/azure/architecture/example-scenario/apps/jenkins
+choose : get it now
+########################################################
+How to Deploy Jenkins Agent and Connect it to Jenkins Master in Microsoft Azure.
+https://medium.com/pharos-production/how-to-deploy-jenkins-agent-and-connect-it-to-jenkins-master-in-microsoft-azure-ffeb085957c0
+Setting up a Windows/VS Jenkins VM Agent
+https://blogs.msdn.microsoft.com/southafrica/2018/05/11/setting-up-a-windowsvs-jenkins-vm-agent/
+
+
+########################################################
+https://www.azuredevopslabs.com/labs/vstsextend/Jenkins/
+https://www.azuredevopslabs.com/labs/vstsextend/Jenkins/
+
+ssh -L 127.0.0.1:8080:localhost:8080 username@samjenkens.centralus.cloudapp.azure.com
+sudo apt-get purge nginx nginx-common
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+Password:   543ffe0e093c48d1bfb0a6d09404835f
+
+$azure_client_id       = "7f43d81f-48e9-47a1-8be9-40b67490377a"
+$azure_tenant_id       = "2e5e869e-4d78-4446-ae7b-d845a48602bc"
+$azure_client_secret   = "[i5JM7mV4g@?1UxhW@I/ZncPV3addxeh"
+$azure_subscription_id = "81a9ea66-6119-4aa3-8322-fd4abfd5faae"
+
+
+In Application setting page, add a new Reply URL https://{your_jenkins_host}/securityRealm/finishLogin. 
+Make sure variable jenkinsURL set as https://{your_jenkins_host} for the file jenkins.model.JenkinsLocationConfiguration.xml in the $JENKINS_HOME folder.
+
+ssh -L 127.0.0.1:8080:localhost:8080 samsoud@samjenkens.centralus.cloudapp.azure.com
+putty.exe -ssh -L 8080:localhost:8080 samsoud@23.99.222.88
+
+7f43d81f-48e9-47a1-8be9-40b67490377a
+
+Directory ID($azure_tenant_id) :2e5e869e-4d78-4446-ae7b-d845a48602bc
+Application ID, it will be used as $azure_client_id.
+
+07641d17-6ba5-4179-ad86-e111eba636a8
+
+homepage URL
+https://azure-cli-2019-05-25-19-49-30
+https://www.popularowl.com/blog/installing-configuring-jenkinsci-nginx/
+
+	
+APPLICATION (CLIENT) ID
+7f43d81f-48e9-47a1-8be9-40b67490377a
+
+
+Directory ID 2e5e869e-4d78-4446-ae7b-d845a48602bc

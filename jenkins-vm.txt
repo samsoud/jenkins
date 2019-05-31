@@ -1,0 +1,15 @@
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-backup-vms
+
+
+
+Local account: ssh samsoud@bechener.eastus.cloudapp.azure.com
+Port:22
+DNS NAME: bechener.eastus.cloudapp.azure.com
+Storage: jenkensstorage
+Jenkins ObjectID: 537c44dc-77a4-491c-8cf3-2936ad2ac915
+
+username: samsoud
+Password: @@01
+
+
+ResourceID= "/subscriptions/81a9ea66-6119-4aa3-8322-fd4abfd5faae/resourceGroups/jenkens/providers/Microsoft.Compute/virtualMachines/jenkins"
