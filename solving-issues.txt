@@ -1,0 +1,13 @@
+git reset  --hard origin/temp-jenkins
+git branch
+git checkout master
+git add *
+#git reset --hard origin/master
+git add *
+git status
+git init
+git add *
+git status
+git commit -m "123"
+git push origin master
+ 

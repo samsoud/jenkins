@@ -1,6 +1,5 @@
 PS C:\WINDOWS\system32> az ad sp t --role="Contributor" --scopes="/subscriptions/81a9ea66-6119-4aa3-8322-fd4abfd5faae"
-Retrying role assignment creation: 1/36
-Retrying role assignment creation: 2/36
+
 {
   "appId": "8b021017-cb7f-418d-91ee-53e61e6d9135",
   "displayName": "azure-cli-2019-05-25-19-49-30",
