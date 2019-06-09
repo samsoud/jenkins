@@ -1,0 +1,8 @@
+#from gitbash Connect to the master
+samsoud@jenkins:~$ ssh -L 127.0.0.1:8080:localhost:8080 samsoud@jenkins01.centralus.cloudapp.azure.com
+
+#Get password from the Master
+
+samsoud@jenkins:~$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+[sudo] password for samsoud:
+6aa1ac06fb4a41c4a6173167de025381
